@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscription - OlympFit</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+   <header class="header">
+  <div class="header-container">
+    <div class="logo-area">
+      <img src="img/logo divinités/logo zeus.png" alt="OlympFit logo" class="logo">
+      <p class="slogan">Atteins ton sommet, entraîne-toi comme un dieu.</p>
+    </div>
+
+    <div class="separator"></div>
+    
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="burger">
+      <span></span> <span></span><span></span>
+    </label>
+
+    <nav class="nav-links">
+      <ul>
+        <li><a href="accueil.html">Accueil</a></li>
+        <li><a href="inscription.html">Inscription</a></li>
+        <li><a href="planning.html">Planning</a></li>
+        <li><a href="photo.html">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="header-bar"></div>
+</header>
+<body>
+<main class="main-content">
+  <form>
+    <h1>Inscription - OlympFit</h1>
+
+    <fieldset>
+      <legend>Informations personnelles</legend>
+
+      <label for="prenom">Prénom</label>
+      <input type="text" id="prenom" name="prenom" required>
+
+      <label for="nom">Nom</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telephone">Téléphone</label>
+      <input type="text" id="telephone" name="telephone" required>
+    </fieldset>
+
+
+    <fieldset>
+  <legend>Choix de l'abonnement</legend>
+
+  <div class="radio-cards">
+    <label class="radio-card">
+      <input type="radio" name="formule" value="classique" required>
+      <div class="card-content">
+        <h3>🛡️ Mortel</h3>
+        <p>Accès libre 7j/7 à toutes les installations. </p>
+      </div>
+    </label>
+
+    <label class="radio-card">
+      <input type="radio" name="formule" value="premium">
+      <div class="card-content">
+        <h3>⚔️ Demi-Dieu</h3>
+        <p>Ajoute les cours collectifs à ton aventure.</p>
+      </div>
+    </label>
+
+    <label class="radio-card">
+      <input type="radio" name="formule" value="vip">
+      <div class="card-content">
+        <h3>⚡ Dieu</h3>
+        <p>Coaching personnel et accès 24h/24 — sois un véritable Olympien.</p>
+      </div>
+    </label>
+  </div>
+</fieldset>
+
+
+    <button type="submit">S'inscrire</button>
+  </form>
+</main>
+  <footer class="footer">
+  <div class="footer-bar"></div>
+
+  <div class="footer-content">
+    <div class="footer-contact">
+      <span class="contact-label">CONTACT :</span>
+      <span class="contact-text">15 Voie Sacrée, Mont Olympe, Grèce Antique</span>
+    </div>
+
+    <div class="footer-icons">
+      <img src="img/icone rs/olympfit insta.png" alt="Instagram" class="footer-icon">
+      <img src="img/icone rs/olympfit tiktok.png" alt="tiktok" class="footer-icon">
+      <img src="img/icone rs/olympfit twitter.png" alt="Twitter" class="footer-icon">
+    </div>
+  </div>
+</footer>
+</body>
+</html>
+
